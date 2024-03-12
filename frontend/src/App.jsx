@@ -1,14 +1,17 @@
 import React from 'react'
-import left from '../components/left'
+import Info from './Components/Info'
+
+
 
 const App = () => {
  
   return (
     
-    <div className=' h-full w-full bg-black' >
-      fdgsfgs
-    <left /> 
-    </div>
+    <div> 
+      <Info/>
+      <div className=' h-screen w-full bg-black'></div>
+      
+      </div>
     
   )
 }
