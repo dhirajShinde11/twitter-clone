@@ -1,18 +1,16 @@
 import React from 'react'
 import Info from './Components/Info'
+import Background from './Components/Background'
 
 
 
 const App = () => {
  
   return (
-    
-    <div> 
-      <Info/>
-      <div className=' h-screen w-full bg-black'></div>
-      
-      </div>
-    
+    <div>
+      <Background/>
+     
+    </div>
   )
 }
 

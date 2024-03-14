@@ -3,3 +3,18 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+
+@font-face {
+    font-family: a;
+    src: url('/frontend/src/Segoe\ UI\ Italic.ttf');
+}
+
+@font-face {
+    font-family: b;
+    src: url('/frontend/src/Segoe\ UI\ Bold\ Italic.ttf');
+}
+@font-face {
+    font-family: c;
+    src: url('/frontend/src/jost-variable.ttf');
+}
