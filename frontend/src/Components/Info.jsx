@@ -20,8 +20,8 @@ const Info = () => {
   };
 
   return (
-    <div className=''>
-      <div className='h-screen w-1/4 border-x text-white border-zinc-700'>
+   
+      <div className='h-screen w-1/4  border-x text-white border-zinc-700'>
         <div className='mr-[9.2vw] pt-[.8vw] flex justify-center'>
           <FontAwesomeIcon className='text-[2.1vw]' icon={faXTwitter} />
         </div>
@@ -44,19 +44,22 @@ const Info = () => {
           <button className=' bg-[#1D9BF0] px-[6vw] py-[1.7vh] rounded-full '>Post</button>
         </div>
        </div>
-       <div className=' cursor-pointer h-[5vw] w-[15vw] bg-green-600'>
-        <div className=' flex justify-between'>
-            <div className='h-[5vw] w-[5vw] bg-red-400 rounded-full overflow-hidden  object-cover'>
+       <div className='px-[5vw] py-[3vh]'>
+       <div className=' cursor-pointer h-[5vw]  w-[17vw] '>
+        <div className=' flex justify-between items-center py-2 px-[1.8vw]'>
+            <div className='h-[3.5vw] w-[3.5vw]  rounded-full overflow-hidden  object-cover'>
               <img src="https://images.unsplash.com/photo-1710432157519-e437027d2e8f?q=80&w=1531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="" />
             </div>
-            <div>
+            <div className=' text-center'>
             <h5>Dhiraj shinde</h5>
             <h5>@Dhirajshinde</h5>
             </div>
+            <a href=""><FontAwesomeIcon icon={faEllipsisH}/></a>
         </div>
        </div>
+       </div>
       </div>
-    </div>
+  
   );
 };
 
