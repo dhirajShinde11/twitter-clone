@@ -1,6 +1,7 @@
 import React from 'react'
 import Info from './Components/Info'
 import Background from './Components/Background'
+import Login from './Components/login'
 
 
 
