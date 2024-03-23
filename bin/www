@@ -7,13 +7,16 @@
 var app = require('../app');
 var debug = require('debug')('twitter-clone:server');
 var http = require('http');
-
+var authRoute= require('../routes/authRoute')
+var app = require('express')
 /**
  * Get port from environment and store in Express.
  */
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
+
+app.use('/auth',authRoute)
 
 /**
  * Create HTTP server.
